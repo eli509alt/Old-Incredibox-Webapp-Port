@@ -63,7 +63,7 @@ var app = new function() {
     }, {
         name: "chipsdel",
         color: "787DFF",
-        uniqsnd: !1
+        uniqsnd: !0
     }, {
         name: "chips2_chillin",
         color: "787DFF",
