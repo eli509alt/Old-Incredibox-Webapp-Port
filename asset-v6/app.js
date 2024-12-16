@@ -1,2 +1,106 @@
-/* 0.5.7 2021-12-27 16:37:09 */
-var app=new function(){this.name="Alive",this.version="6",this.date="2018",this.folder="asset-v6/",this.looptime=7111,this.bpm=135,this.totalframe=342,this.nbpolo=7,this.nbloopbonus=3,this.bonusloopA=!1,this.bonusendloopA=!1,this.recmaxloop=26,this.recminloop=3,this.recmintime=Math.round(this.looptime/1e3)*this.recminloop,this.spritepolo="polo-sprite.png",this.spritepolotshirt="polo-sprite-tshirt.png",this.spritepicto="game-picto.png",this.colBck="#120521",this.col0="#a07dfa",this.col1="#825fd2",this.col2="#5f3ca0",this.col3="#371464",this.col4="#230a41",this.animearray=[{name:"1_kick",color:"1e96be",uniqsnd:!0},{name:"2_snare",color:"1e96be",uniqsnd:!0},{name:"3_kanye",color:"1e96be",uniqsnd:!0},{name:"4_tuctuc",color:"1e96be",uniqsnd:!0},{name:"5_break",color:"1e96be",uniqsnd:!0},{name:"6_cribasse",color:"825fd2",uniqsnd:!0},{name:"7_distotut",color:"825fd2",uniqsnd:!0},{name:"8_screw",color:"825fd2",uniqsnd:!0},{name:"9_shaolin",color:"825fd2",uniqsnd:!0},{name:"10_shower",color:"825fd2",uniqsnd:!0},{name:"11_basse",color:"e11419",uniqsnd:!0},{name:"12_hou",color:"e11419",uniqsnd:!0},{name:"13_clav",color:"e11419",uniqsnd:!0},{name:"14_synth",color:"e11419",uniqsnd:!0},{name:"15_yah",color:"e11419",uniqsnd:!0},{name:"16_hurry",color:"f06400",uniqsnd:!0},{name:"17_good",color:"f06400",uniqsnd:!0},{name:"18_mind",color:"f06400",uniqsnd:!0},{name:"19_haha",color:"f06400",uniqsnd:!0},{name:"20_wow",color:"f06400",uniqsnd:!0}],this.bonusarray=[{name:"Alive",src:"v6-b1-alive-hb-hd.webm",code:"4,6,9,14,18",sound:"bonus-alive",aspire:"aspire-alive"},{name:"Busta",src:"v6-b2-busta-hb-hd.webm",code:"1,2,8,11,16",sound:"bonus-busta",aspire:"aspire-busta"},{name:"VR",src:"v6-b3-vr-hb-hd.webm",code:"3,8,12,11,20",sound:"bonus-vr",aspire:"aspire-vr"}]};
+/* 0.5.4 2021-04-23 21:06:13 */
+var app = new function() {
+    this.name = "LM (Christmas)", this.version = "2", this.date = "2012", this.folder = "asset-v6/", this.looptime = 4800, this.bpm = 100, this.totalframe = 232, this.nbpolo = 7, this.nbloopbonus = 4, this.bonusloopA = !0, this.bonusendloopA = !0, this.recmaxloop = 38, this.recminloop = 5, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#1c0d0d", this.col0 = "#EB4B4B", this.col1 = "#C32D2D", this.col2 = "#9B2323", this.col3 = "#691E1E", this.col4 = "#371919", this.animearray = [{
+        name: "beat1_boom",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "beat2_kashi",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "beat3_paomeu",
+        color: "d61718",
+        uniqsnd: !0
+    }, {
+        name: "beat4_ptttpeu",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "beat5_slupttt",
+        color: "d61718",
+        uniqsnd: !0
+    }, {
+        name: "effet1_poulll",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "effet2_tucati",
+        color: "d61718",
+        uniqsnd: !0
+    }, {
+        name: "effet3_tuilopta",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "effet4_tululou",
+        color: "d61718",
+        uniqsnd: !0
+    }, {
+        name: "effet5_tumttt",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "melo1_nananana",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "melo2_pelulu",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "melo3_siffle",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "melo4_tatouti",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "melo5_tvutvutvu",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "coeur1_oaaah",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "coeur2_cougou",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "coeur3_porticoeur",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "voix1_isit",
+        color: "d61718",
+        uniqsnd: !1
+    }, {
+        name: "voix2_uare",
+        color: "d61718",
+        uniqsnd: !1
+    }], this.bonusarray = [{
+        name: "Satisfied",
+        src: "v2-b1-satisfy-hb.mp4",
+        code: "1,4,6,9,12",
+        sound: "bonus-satisfy",
+        aspire: "aspire"
+    }, {
+        name: "Little Miss",
+        src: "v2-b2-miss-hb.mp4",
+        code: "5,6,7,13,15",
+        sound: "bonus-miss",
+        aspire: "aspire"
+    }, {
+        name: "Why this world",
+        src: "v2-b3-world-hb.mp4",
+        code: "6,8,9,14,18",
+        sound: "bonus-world",
+        aspire: "aspire"
+    }];
+    for (var o = 0, n = this.animearray.length; o < n; o++) {
+        var i = this.animearray[o].name;
+        this.animearray[o].soundA = i + "_a", this.animearray[o].soundB = this.animearray[o].uniqsnd ? i + "_a" : i + "_b", this.animearray[o].anime = i + "-sprite.png", this.animearray[o].animeData = i + ".json"
+    }
+};
