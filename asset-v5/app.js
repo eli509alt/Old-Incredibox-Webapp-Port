@@ -60,19 +60,19 @@ var app = new function() {
         name: "Choir (OG)",
         src: "b1-choir.mp4",
         code: "4,6,7,8,12",
-        sound: "bonus-choir",
+        sound: "bonus-choirold",
         aspire: "aspire"
     }, {
         name: "Sailor (OG)",
         src: "b2-sailor.mp4",
         code: "1,8,10,11,14",
-        sound: "bonus-sailor",
+        sound: "bonus-sailorold",
         aspire: "aspire"
     }, {
         name: "Santa (OG)",
         src: "b3-santa.mp4",
         code: "1,9,12,13,14",
-        sound: "bonus-santa",
+        sound: "bonus-santaold",
         aspire: "aspire"
     }];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
