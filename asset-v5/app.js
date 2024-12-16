@@ -29,10 +29,6 @@ var app = new function() {
         color: "828282",
         uniqsnd: !0
     }, {
-        name: "8_trill",
-        color: "828282",
-        uniqsnd: !0
-    }, {
         name: "instruments1",
         color: "828282",
         uniqsnd: !0
