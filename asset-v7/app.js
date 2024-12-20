@@ -81,20 +81,20 @@ var app = new function() {
         color: "787DFF",
         uniqsnd: !0
     }], this.bonusarray = [{
-        name: "Baby",
-        src: "v4-b1-love-hb.mp4",
+        name: "The Love",
+        src: "b1-love.mp4",
         code: "1,2,6,11,17",
         sound: "bonus_love",
         aspire: "aspire"
     }, {
         name: "Follow",
-        src: "v4-b2-follow-hb.mp4",
+        src: "b2-follow.mp4",
         code: "1,6,8,12,18",
         sound: "bonus_follow",
         aspire: "aspire"
     }, {
         name: "Eagle",
-        src: "v4-b3-eagle-hb.mp4",
+        src: "b3-eagle.mp4",
         code: "1,3,6,13,16",
         sound: "bonus_eagle",
         aspire: "aspire"
