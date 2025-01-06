@@ -1,2 +1,52 @@
-/* 0.5.7 2021-12-27 16:37:09 */
-var app=new function(){this.name="Dystopia",this.version="8",this.date="2020",this.folder="asset-v8/",this.looptime=6857,this.bpm=140,this.totalframe=328,this.nbpolo=7,this.nbloopbonus=6,this.bonusloopA=!0,this.bonusendloopA=!1,this.recmaxloop=27,this.recminloop=4,this.recmintime=Math.round(this.looptime/1e3)*this.recminloop,this.spritepolo="polo-sprite.png",this.spritepolotshirt="polo-sprite-tshirt.png",this.spritepicto="game-picto.png",this.colBck="#0a1d1e",this.col0="#779295",this.col1="#5f7e7b",this.col2="#476761",this.col3="#304d47",this.col4="#1b312f",this.animearray=[{name:"1_atlanta",color:"5f7e7b",uniqsnd:!1},{name:"2_tuctom",color:"5f7e7b",uniqsnd:!1},{name:"3_foubreak",color:"5f7e7b",uniqsnd:!1},{name:"4_koukaki",color:"5f7e7b",uniqsnd:!0},{name:"5_koungou",color:"5f7e7b",uniqsnd:!0},{name:"6_bass",color:"5f7e7b",uniqsnd:!1},{name:"7_monk",color:"5f7e7b",uniqsnd:!1},{name:"8_sonar",color:"5f7e7b",uniqsnd:!0},{name:"9_souffle",color:"5f7e7b",uniqsnd:!1},{name:"10_epifle",color:"5f7e7b",uniqsnd:!1},{name:"11_arpeg",color:"5f7e7b",uniqsnd:!1},{name:"12_tromp",color:"5f7e7b",uniqsnd:!1},{name:"13_pizzi",color:"5f7e7b",uniqsnd:!1},{name:"14_organ",color:"5f7e7b",uniqsnd:!1},{name:"15_synth",color:"5f7e7b",uniqsnd:!1},{name:"16_follow",color:"5f7e7b",uniqsnd:!1},{name:"17_choir",color:"5f7e7b",uniqsnd:!1},{name:"18_houhou",color:"5f7e7b",uniqsnd:!1},{name:"19_reach",color:"5f7e7b",uniqsnd:!1},{name:"20_believe",color:"5f7e7b",uniqsnd:!1}],this.bonusarray=[{name:"Riveria",src:"v8-b1-riviera-hb-hd.webm",code:"1,6,7,11,19",sound:"21_bonus_riviera",aspire:"aspire"},{name:"Zemetekile",src:"v8-b2-zemetekile-hb-hd.webm",code:"1,2,3,4,10",sound:"22_bonus_zemetekile",aspire:"aspire"},{name:"Cumulor",src:"v8-b3-cumulor-hb-hd.webm",code:"4,5,14,16,18",sound:"23_bonus_cumulor",aspire:"aspire"}]};
+/* G MUSIC MY ASS */
+var app = new (function () {
+    (this.name = "G Music"),
+        (this.version = "2"),
+        (this.date = "2013"),
+        (this.folder = "asset-v8/"),
+        (this.looptime = 4800),
+        (this.bpm = 100),
+        (this.totalframe = 232),
+        (this.nbpolo = 7),
+        (this.nbloopbonus = 4),
+        (this.bonusloopA = !0),
+        (this.bonusendloopA = !0),
+        (this.recmaxloop = 38),
+        (this.recminloop = 5),
+        (this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop),
+        (this.spritepolo = "polo-sprite.png"),
+        (this.spritepicto = "game-picto.png"),
+        (this.colBck = "#5c5c5c"),
+        (this.col0 = "#919191"),
+        (this.col1 = "#cccccc"),
+        (this.col2 = "#4f4f4f"),
+        (this.col3 = "#d9d9d9"),
+        (this.col4 = "#666666"),
+        (this.animearray = [
+            { name: "b0-og", color: "828282", uniqsnd: !0 },
+            { name: "b1-og", color: "828282", uniqsnd: !0 },
+            { name: "b2-og", color: "828282", uniqsnd: !0 },
+            { name: "b3-og", color: "828282", uniqsnd: !0 },
+            { name: "b4-og", color: "828282", uniqsnd: !0 },
+            { name: "b5-og", color: "828282", uniqsnd: !0 },
+            { name: "b6-og", color: "828282", uniqsnd: !0 },
+            { name: "b7-og", color: "828282", uniqsnd: !0 },
+            { name: "b8-og", color: "828282", uniqsnd: !0 },
+            { name: "e0-og", color: "828282", uniqsnd: !0 },
+            { name: "e1-og", color: "828282", uniqsnd: !0 },
+            { name: "e2-og", color: "828282", uniqsnd: !0 },
+            { name: "e3-og", color: "828282", uniqsnd: !0 },
+            { name: "v0-og", color: "828282", uniqsnd: !0 },
+            { name: "v1-og", color: "828282", uniqsnd: !0 },
+            { name: "v2-og", color: "828282", uniqsnd: !0 },
+            { name: "v3-og", color: "828282", uniqsnd: !0 },
+            { name: "v4-og", color: "828282", uniqsnd: !0 },
+            { name: "v5-og", color: "828282", uniqsnd: !0 },
+            { name: "v6-og", color: "828282", uniqsnd: !0 },
+        ]),
+        (this.bonusarray = []);
+    for (var o = 0, n = this.animearray.length; o < n; o++) {
+        var i = this.animearray[o].name;
+        (this.animearray[o].soundA = i + "_a"), (this.animearray[o].soundB = this.animearray[o].uniqsnd ? i + "_a" : i + "_b"), (this.animearray[o].anime = i + "-sprite.png"), (this.animearray[o].animeData = i + ".json");
+    }
+})();
