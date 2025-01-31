@@ -1,7 +1,7 @@
 /* 0.5.4 2021-04-23 21:06:13 */
 var app = new function() {
-    this.name = "Axe Boat", this.version = "4", this.date = "2014", this.folder = "asset-v1/", this.looptime = 8e3, this.bpm = 120, this.totalframe = 384, this.nbpolo = 7, this.nbloopbonus = 1, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 23, this.recminloop = 3, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#272f7a", this.col0 = "#476bc7", this.col1 = "#4849a8", this.col2 = "#2c2d69", this.col3 = "#3a3b8a", this.col4 = "#011342", this.animearray = [{
-        name: "kick-mfp",
+    this.name = "Axe Boat", this.version = "4", this.date = "2014", this.folder = "asset-v4/", this.looptime = 8e3, this.bpm = 120, this.totalframe = 384, this.nbpolo = 7, this.nbloopbonus = 1, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 23, this.recminloop = 3, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#272f7a", this.col0 = "#476bc7", this.col1 = "#4849a8", this.col2 = "#2c2d69", this.col3 = "#3a3b8a", this.col4 = "#011342", this.animearray = [{
+        name: "kick-mfp-flash",
         color: "d7a267",
         uniqsnd: !1
     }, {
