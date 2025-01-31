@@ -3431,7 +3431,7 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
     background-position: 0 calc((100% / 9) * 4);
 }
 .v4 #box-top .bt-bonus.unlock#bt-bonus-2 .icon .icn-bck {
-    background-position: 50% calc((100% / 9) * 4);
+    background-position: 50% calc((100% / 9) * 7);
 }
 .v4 #box-top .bt-bonus.unlock#bt-bonus-3 .icon .icn-bck {
     background-position: 100% calc((100% / 9) * 4);
@@ -3446,22 +3446,22 @@ body:not(.fluid) #box-top.random #box-bt2 #box-bt2-bck {
     background-position: 100% calc((100% / 9) * 5);
 }
 .v6 #box-top .bt-bonus.unlock#bt-bonus-1 .icon .icn-bck {
-    background-position: 0 calc((100% / 9) * 6);
+    background-position: 0 calc((100% / 9) * 2);
 }
 .v6 #box-top .bt-bonus.unlock#bt-bonus-2 .icon .icn-bck {
-    background-position: 50% calc((100% / 9) * 6);
+    background-position: 50% calc((100% / 9) * 2);
 }
 .v6 #box-top .bt-bonus.unlock#bt-bonus-3 .icon .icn-bck {
-    background-position: 100% calc((100% / 9) * 6);
+    background-position: 100% calc((100% / 9) * 2);
 }
 .v7 #box-top .bt-bonus.unlock#bt-bonus-1 .icon .icn-bck {
-    background-position: 0 calc((100% / 9) * 7);
+    background-position: 0 calc((100% / 9) * 4);
 }
 .v7 #box-top .bt-bonus.unlock#bt-bonus-2 .icon .icn-bck {
-    background-position: 50% calc((100% / 9) * 7);
+    background-position: 50% calc((100% / 9) * 4);
 }
 .v7 #box-top .bt-bonus.unlock#bt-bonus-3 .icon .icn-bck {
-    background-position: 100% calc((100% / 9) * 7);
+    background-position: 100% calc((100% / 9) * 4);
 }
 .v8 #box-top .bt-bonus.unlock#bt-bonus-1 .icon .icn-bck {
     background-position: 0 calc((100% / 9) * 8);
