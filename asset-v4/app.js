@@ -1,87 +1,87 @@
-/* MIX FOR PEACE IS BACK! - Rizsim Studios */
+/* 0.5.4 2021-04-23 21:06:13 */
 var app = new function() {
-    this.name = "Axe Boat", this.version = "4", this.date = "2014", this.folder = "asset-v4/", this.looptime = 8e3, this.bpm = 120, this.totalframe = 384, this.nbpolo = 7, this.nbloopbonus = 1, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 23, this.recminloop = 3, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#211101", this.col0 = "#D8A365", this.col1 = "#BA7B3D", this.col2 = "#A16224", this.col3 = "#6A3501", this.col4 = "#422101", this.animearray = [{
-        name: "drum1_kick",
-        color: "ffc075",
+    this.name = "Axe Boat", this.version = "4", this.date = "2014", this.folder = "asset-v1/", this.looptime = 8e3, this.bpm = 120, this.totalframe = 384, this.nbpolo = 7, this.nbloopbonus = 1, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 23, this.recminloop = 3, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#272f7a", this.col0 = "#476bc7", this.col1 = "#4849a8", this.col2 = "#2c2d69", this.col3 = "#3a3b8a", this.col4 = "#011342", this.animearray = [{
+        name: "kick-mfp",
+        color: "d7a267",
         uniqsnd: !1
     }, {
-        name: "drum2_snare",
-        color: "ffc075",
+        name: "snare-mfp",
+        color: "d7a267",
         uniqsnd: !1
     }, {
-        name: "drum3_touti",
-        color: "ffc075",
+        name: "touti-mfp",
+        color: "d7a267",
         uniqsnd: !0
     }, {
-        name: "drum4_charley",
-        color: "ffc075",
+        name: "charley-mfp",
+        color: "d7a267",
         uniqsnd: !0
     }, {
-        name: "drum5_chatom",
-        color: "ffc075",
+        name: "chatom-mfp",
+        color: "d7a267",
         uniqsnd: !1
     }, {
-        name: "effect1_bass",
+        name: "bass-mfp",
         color: "09b7c8",
         uniqsnd: !1
     }, {
-        name: "effect2_enigmatic",
+        name: "enigmatic-mfp",
         color: "09b7c8",
         uniqsnd: !0
     }, {
-        name: "effect3_cry",
+        name: "cry-mfp",
         color: "09b7c8",
         uniqsnd: !0
     }, {
-        name: "effect4_odoyouno",
+        name: "odoyouno-mfp",
         color: "09b7c8",
         uniqsnd: !0
     }, {
-        name: "effect5_oua",
+        name: "oua-mfp",
         color: "09b7c8",
         uniqsnd: !0
     }, {
-        name: "melo1_toun",
-        color: "e9434d",
+        name: "toun-mfp",
+        color: "f04040",
         uniqsnd: !1
     }, {
-        name: "melo2_flute",
-        color: "e9434d",
+        name: "flute-mfp",
+        color: "f04040",
         uniqsnd: !1
     }, {
-        name: "melo3_neou",
-        color: "e9434d",
+        name: "neou-mfp",
+        color: "f04040",
         uniqsnd: !1
     }, {
-        name: "melo4_hu",
-        color: "e9434d",
+        name: "hu-mfp",
+        color: "f04040",
         uniqsnd: !0
     }, {
-        name: "melo5_ah",
-        color: "e9434d",
+        name: "ah-mfp",
+        color: "f04040",
         uniqsnd: !0
-    }, { /* MIX FOR PEACE */
-        name: "chipsdel",
+    }, {
+        name: "feel-mfp",
         color: "7a7ff6",
         uniqsnd: !0
     }, {
-        name: "chips2_chillin",
+        name: "chillin-mfp",
         color: "7a7ff6",
         uniqsnd: !0
     }, {
-        name: "chips3_yeah",
+        name: "yeah-mfp",
         color: "7a7ff6",
         uniqsnd: !0
     }, {
-        name: "chips4_filback",
+        name: "filback-mfp",
         color: "7a7ff6",
         uniqsnd: !1
     }, {
-        name: "chips5_teylo",
+        name: "teylo-mfp",
         color: "7a7ff6",
         uniqsnd: !0
-    }], this.bonusarray = [{ /* BONUS 1 DEMO! */
-        name: "Mix For Peace",
+    }], this.bonusarray = [{
+        name: "The Love",
         src: "b1-love.mp4",
         code: "1,2,6,11,17",
         sound: "bonus-love",
